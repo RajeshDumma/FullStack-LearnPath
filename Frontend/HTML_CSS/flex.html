@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox{
+            display: flex;
+        }
+        .card{
+            width: 150px;
+            height: 150px;
+            margin: 0.7rem;
+            text-align: center;
+        }
+        .one{
+            background-color: aqua;
+        }
+        .two{
+            background-color: mediumorchid;
+            
+        }
+        .three{
+            background-color: gold;
+          
+        }
+        .fore{
+            background-color: firebrick;
+            
+        }
+        .flexbox1{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+        .flexbox2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .flexbox3{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .flexbox4{
+            display: flex;
+            justify-content: space-around;
+        }
+        .flexbox5{
+            display: flex;
+            justify-content: space-between;
+        }
+        .flexbox6{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flexbox7{
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        
+    </style>
+</head>
+<body>
+    <h4>Display:flex</h4>
+    <div class="flexbox">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+    <h4>display-flex and flex-direction column reverse</h4>
+    <div class="flexbox1">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+    <h4> justify-content - column reverse</h4>
+
+    <div class="flexbox2">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+ 
+     <h4>justify-content- space evenly</h4>
+    <div class="flexbox3">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+
+    <h4>justify-content- space around</h4>
+    <div class="flexbox4">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+    <h4>justify-content- space between </h4>
+    <div class="flexbox5">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+    <h4>flex-wrap: wrap </h4>
+    <div class="flexbox6">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+    <h4>flex-wrap: wrap-reverse </h4>
+    <div class="flexbox7">
+        <div class="card one">card-1</div>
+        <div class="card two">card-2</div>
+        <div class="card three">card-3</div>
+        <div class="card fore">card-4</div>
+    </div>
+</body>
+</html>

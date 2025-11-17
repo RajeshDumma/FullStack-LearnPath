@@ -1,0 +1,100 @@
+@@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+header ul li{
+   margin-left: 1rem;
+}
+.underLine:hover{
+    text-decoration: underline;
+}
+#menu-icon{
+    height: 18px;
+}
+#user-id{
+    height: 35px;
+}
+header ul img{
+    height: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.google-img{
+    height: 10rem;
+    pointer-events: none;
+}
+.search{
+    display: flex;
+    width: 36%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 0.8rem;
+    border-radius: 30px;
+    justify-content:space-evenly ;
+}
+.search:hover{
+    box-shadow: 1px 2px 2px 2px lightgray;
+}
+.search img{
+    height: 30px;
+}
+.search input{
+    width: 90%;
+    border: none;
+    margin: left 0.8rem;
+    outline: none;
+    font-size: 1.2rem;
+}
+.buttons button{
+ padding: 0.8rem;
+ border: 6px;
+ margin-top:2rem;
+ border-radius: 10px;
+}
+
+main p span{
+    color: blue;
+    margin-left: 0.9rem;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+    margin-top: 17%;
+}
+footer ul{
+    list-style: none;
+}
+footer div p{
+    padding: 0.6rem 0.6rem;
+}
+.bottom-menu{
+    display: flex;
+    justify-content: space-between;
+}
+footer div ul{
+    display: flex;
+    padding: 0.6rem 0;
+}
+footer div ul li {
+    padding: 0 0.6rem;
+}
