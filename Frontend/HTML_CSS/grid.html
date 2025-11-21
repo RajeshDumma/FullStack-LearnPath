@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr;
+        }
+        .box{
+            background-color: bisque;
+            padding:3rem;
+            margin: 1rem;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns: 6fr 2fr 2fr;
+
+        }
+        .boxs{
+            background-color: black;
+            margin: 1rem;
+            color: wheat;
+            padding: 3rem;
+            height: 80px;
+            
+        }
+
+    </style>
 </head>
 <body>
     
+    <h1>CSS GRID</h1>
+         <div class="grid">
+        <div class="box box1"><h1>40%</h1></div>
+        <div class="box box2"><h1>30%</h1></div>
+        <div class="box box2"><h1>30%</h1></div>
+    </div>
+    <h1>CSS GRID-2</h1>
+    <div class="grid1">
+        <div class="boxs br1"><h1>60%</h1></div>
+        <div class="boxs br2"><h1>20%</h1></div>
+        <div class="boxs br3"><h1>20%</h1></div>
+    </div>
     
 </body>
 </html>
