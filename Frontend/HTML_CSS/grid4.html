@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid area part-4</title>
+
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: 10% 30% auto;
+            grid-template-areas: "header header header header aside"
+                                  "box1 box2 box3 box4 aside"
+                                  "article article section section aside";
+        }
+        header{
+            grid-area: header;
+            background-color: orangered;
+        }
+        aside{
+            grid-area: aside;
+            background-color: blue;
+        }
+        .box1{
+            grid-area: box1;
+            background-color: gray;
+        }
+        .box2{
+            grid-area: box2;
+            background-color: white;
+        }
+        .box3{
+            grid-area: box3;
+            background-color: blue;
+        }
+        .box4{
+            grid-area: box4;
+            background-color: orange;
+        }
+        article{
+            grid-area: article;
+            background-color: darkcyan;
+        }
+        section{
+            grid-area: section;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <aside></aside>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <article></article>
+    <section></section>
+</body>
+</html>
