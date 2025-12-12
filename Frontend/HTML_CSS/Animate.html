@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        ul li {
+            margin: 2rem;
+           cursor: pointer;
+           transform: 5s;
+           font-size: large;
+        }
+        ul li:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        section{
+           background-color: aqua;
+            height: 300px;
+            width: 300px;
+            border-radius: 30px;
+            transition: 1s;
+            position:absolute;
+            flex: end;
+            animation: left-to-right 5s;
+        }
+      /*  section:hover{
+            transform: rotate(40deg);
+            background-color: blanchedalmond;
+            border-radius: 50%;
+            transform: translateY(50%);
+        } */
+        @keyframes left-to-right{
+            0%{
+                left: 0%;
+                right: 10%;
+                background: yellow;
+            }
+            50%{
+                left: 50%;
+                background: violet;
+            }
+            100%{
+                left: 100%;
+                background: tomato;
+            }
+        }
+
+        main{
+
+        }
+        .animation{
+            background-color: rgb(10, 10, 10);
+            height: 300px;
+            width: 300px;
+            border-radius: 30px;
+            transition: 1s;
+            position:absolute;
+            animation: right-to-left 8s infinite;
+            margin: 20rem;
+        }
+        @keyframes right-to-left{
+            0%{
+                right: 0%;
+                left: 10%;
+                background: deeppink;
+            }
+            50%{
+                left: 50%;
+                background: gold;
+            }
+            100%{
+                left: 100%;
+                background: fuchsia;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+        </ul>
+    </header>
+    <section>
+        
+    </section>
+    <main class="animation">
+        
+    </main>
+</body>
+</html>
