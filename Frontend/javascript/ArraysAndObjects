@@ -1,0 +1,41 @@
+// Arrays 
+
+let num = ['one', 'two', 'three', 'four'];
+for(let i = 0; i < num.length; i++){
+    console.log(num[i]);
+}
+
+
+let movies = {
+    names:['rrr', 'jjj','kkkk'],
+    date:'10/jan/2025',
+    heros:['prabes', 'AlluArjun', 'ramcharan']
+};
+
+console.log(movies);
+console.log(movies.names[1]);
+console.log(movies.heros[2]);
+
+
+let box = {
+    clolor:'green',
+    weight:'100kg',
+    height:100,
+    width:100,
+    sealed:true
+};
+
+let box1 = {
+     clolor:'red',
+    weight:'100kg',
+    height:100,
+    width:100,
+    sealed:true
+};
+
+box.size = 2;
+console.log(box);
+delete box.size;
+console.log(box);
+
+console.log(box.clolor + " "+  box1.clolor);
