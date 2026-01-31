@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+        background: lightcyan;
+        min-height: 100vh;
+        width: 100vw;
+         display: flex;
+        justify-content: center;
+        align-items: flex-start; 
+         padding-top: 40px;       
+     }
+
+       .searchEngine{
+        width: 50%;
+         }
+        input{
+        width: 100%;
+        border: none;
+        border-bottom: 0.6px solid black;
+        font-size: 1.5rem;
+        color: #00838F;
+        outline: none;
+        margin-top: 1rem;
+        padding: 1rem;
+     }
+
+        h3{
+            font-size: 2rem;
+        }
+        .results{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .result{
+            background: white;
+            border: 0.2px solid black;
+            border-radius: 15px;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin: 1rem;
+        }
+        button{
+            background: darkcyan;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 15px;
+            border: none;
+            margin: 0.1rem;
+        }
+        img{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="searchEngine">
+          <h3>Serach Engine</h3>
+        <input id="serachInput" type="text" placeholder="Serach" >
+        <div class="results">
+            <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+             <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+             <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+             <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+             <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+             <div class="result">
+                <img src="https://picsum.photos/200/100" alt="">
+                <h4>Product Name</h4>
+                <p>Price: 1000</p>
+                <button>Purchase</button>
+            </div>
+        </div>
+    </div>
+      
+        <script src="./index.js"></script>
+</body>
+</html>

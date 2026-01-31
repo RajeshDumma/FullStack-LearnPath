@@ -4,6 +4,7 @@ console.log(document);
 /* ---------- Heading ---------- */
 const heading1 = document.createElement("h1");
 heading1.textContent = "Welcome to JavaScript";
+// console.log(heading1)
 document.body.append(heading1);
 
 /* ---------- Image ---------- */
@@ -41,11 +42,11 @@ img.addEventListener("error", () => {
 document.body.append(img);
 
 /* ---------- Section ---------- */
-const section = document.createElement("div");
-section.className = "section";
+// const section = document.createElement("div");
+// section.className = "section";
 
-const heading2 = document.createElement("h1");
-heading2.textContent = "This is heading tag";
+// const heading2 = document.createElement("h1");
+// heading2.textContent = "This is heading tag";
 
-section.append(heading2);
-document.body.append(section);
+// section.append(heading2);
+// document.body.append(section);

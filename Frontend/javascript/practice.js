@@ -15,7 +15,7 @@ document.body.append(head2)//
 
 const para = document.createElement('div');
 
-para.innerHTML = '<p>Inner htmp inside div </p>';
+para.innerHTML = '<p>Inner html inside div </p>';
 document.body.append(para);
 
 

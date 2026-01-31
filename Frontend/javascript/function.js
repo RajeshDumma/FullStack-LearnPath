@@ -29,3 +29,15 @@ let z = Number(x);
 console.log(z + y);
 
 console.log("5" + 3 - 2);
+
+
+var msg = "I will rule the world!" ;
+
+const victor = {
+    msg : "Victor will rule the world!",
+    printMsg() {
+        console.log(this.msg);
+    }
+}
+
+victor.printMsg();
